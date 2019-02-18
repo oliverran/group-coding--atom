@@ -1,2 +1,0 @@
-# coding for project
-#test
