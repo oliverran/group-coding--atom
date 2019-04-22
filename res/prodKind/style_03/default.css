@@ -1,0 +1,29 @@
+.prodcateStyle_3{clear: both; width: 100%;}
+.prodcateStyle_3 *{transition: all ease-out .2s; -webkit-transition: all ease-out .2s; -moz-transition: all ease-out .2s; -moz-transition: all ease-out .2s; -o-transition: all ease-out .2s; box-sizing: border-box;}
+.prodcateStyle_3>ul>li>a, .prodcateStyle_3 .subCateUl>ul>li>a, .prodcateStyle_3 .subCateUl2>li>a{color: inherit; line-height: inherit; height: inherit; white-space: nowrap;}
+
+@media screen and (min-width:768px){
+.prodcateStyle_3 i{margin-left: 5px;}
+.prodcateStyle_3>ul{position: relative; display: flex; display: box; display: -webkit-box;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,.2);}
+.prodcateStyle_3>ul>li{-webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; color: #333; height: auto !important; font-size: 14px; line-height: 36px; text-align: center;  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.prodcateStyle_3>ul>li:hover .subCateUl{height: auto !important; overflow: visible;}
+.prodcateStyle_3>ul>li:hover .subCateUl>ul{padding-top: 10px;}
+.prodcateStyle_3 .subCateUl{position: absolute; width:100%; left: 0; height: 0; overflow: hidden;}
+.prodcateStyle_3 .subCateUl>ul{display: -webkit-box;/*display: -webkit-flex;display: -ms-flexbox;display: flex;*/-webkit-align-items: center;-ms-flex-align: center;align-items: flex-start; background: #fff; box-shadow: 0 0 10px rgba(0,0,0,.2); padding:0 10px 10px 10px; width: 100%; margin-top: 10px;}
+.prodcateStyle_3 .subCateUl>ul>li{position: relative; -webkit-box-flex: 1;-webkit-flex: 1;-ms-flex: 1;flex: 1; color: #333; font-size: 14px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.prodcateStyle_3 .subCateUl2{position: relative; left: 0; margin-top: 15px;}
+.prodcateStyle_3 .subCateUl2>li{font-size: 12px; line-height: 24px; color: #666; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+}
+@media screen and (max-width:767px){
+.prodcateStyle_3 i{display: none;}	
+.prodcateStyle_3>ul{width: 100%;}
+.prodcateStyle_3>ul>li{width: 100%; clear: both; font-size: 14px; line-height: 28px; color: #0da3b4; font-family: microsoft yahei; background: #fff; margin-bottom: 5px; border-bottom:1px solid #eee; padding: 0 10px;}
+.prodcateStyle_3>ul>li:after{content: ''; display: block; clear: both;}
+.prodcateStyle_3 .subCateUl{}
+.prodcateStyle_3 .subCateUl>ul{overflow: hidden;}
+.prodcateStyle_3 .subCateUl>ul>li{width: 100%; clear: both; font-weight: bold; font-size: 12px; line-height: 24px;}
+.prodcateStyle_3 .subCateUl>ul>li>a{float: left; width: 25%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap;}
+.prodcateStyle_3 .subCateUl2{float: left; width:75%;}
+.prodcateStyle_3 .subCateUl2>li{float: left; margin-right: 5px; margin-bottom: 5px; font-size: 12px; line-height: 24px; padding: 0 6px; border-radius: 12px; background: #eee; color: #333;}
+
+}
