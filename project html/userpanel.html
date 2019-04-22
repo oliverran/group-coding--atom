@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Frameset//EN" "http://www.w3.org/TR/html4/frameset.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width; initial-scale=1.0; minimum-scale=1.0; maximum-scale=1.0, user-scalable=no" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title> 会员控制中心</title>
+<style type="text/css">
+	html{height:100%;width:100%;overflow:hidden}
+	body{height:100%;width:100%;margin:0;}
+	iframe {width:100%;height:100%;border:0}
+</style>
+<script>
+window.onload=function(){
+	if(parent.parent.document.getElementById("useriframe")){
+		parent.parent.document.location.reload();
+		return;
+	}
+	var iframe = document.createElement("iframe");
+	iframe.name="useriframe";
+	var url = document.location.toString();				
+　　　　if(url.indexOf("/") != -1){
+            url = url.substring(0,  url.lastIndexOf("/")) ;
+　　　　}
+	iframe.src = "//admin.mifwl.com/exusers/userpanel.php?id=42141#" + decodeURI(url);
+	//iframe.scrolling="no";
+	document.body.appendChild(iframe);
+	setInterval(checkHash,1000);
+}
+function checkHash(){
+    var data = location.hash?location.hash.substring(1):'';
+    if(data != ''){
+        //这里处理返回值
+        data = decodeURI(data);
+        document.title = data;
+        location.hash = '';
+    }
+}
+</script>
+</head>
+</html>

@@ -1,0 +1,654 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<!-- 启用极速模式(webkit) -->
+<meta name="renderer" content="webkit">
+<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="KeyWords" content="gantt">
+<meta name="description" content="gantt">
+<title>gantt</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/upimages/favicon.ico" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="black" />
+<meta name="format-detection" content="telephone=no" />
+<meta name='apple-touch-fullscreen' content='yes' />
+<meta name="full-screen" content="yes">
+<!-- SEO友好提示 -->
+<meta name="applicable-device" content="pc,mobile">
+<!--[if lt IE 9]>
+<script type="text/javascript" src="/js/comm/html5shiv.js"></script>
+<script type="text/javascript" src="/js/comm/respond.min.js"></script>
+<![endif]-->
+<script type="text/javascript" src="js/comm/jquery.min.js"></script>
+<script type="text/javascript" src="js/comm/jquery.lazyload.min.js"></script>
+<script type="text/javascript" src="js/comm/jquery.nicescroll.min.js"></script>
+<script type="text/javascript" src="js/comm/ubox.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/comm/wow.js" charset="utf-8"></script>
+<script type="text/javascript" src="js/comm/alert.js" charset="utf-8"></script>
+
+<script type="text/javascript" src="js/15559211557953.js?1555497504" charset="utf-8"></script>
+<link rel="stylesheet" type="text/css" href="css/comm/font/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="css/comm/animate.min.css"/>
+<link rel="stylesheet" type="text/css" href="css/comm/box.css"/>
+<link rel="stylesheet" type="text/css" href="css/comm/alert.css"/>
+<link rel="stylesheet" type="text/css" href="css/15559211557953.css?1555497504"/>
+<script>
+	var batchArr = [];
+	var checkLoad = 0;//判断是否是回调完成的
+</script>
+<script>
+    var isOpenMobie = 2;
+    var isOpenPad = 2;
+    if(isOpenMobie == 1){
+        if(isOpenPad == 1){
+            $("body").css("width","auto");
+        }else{
+            //是否手机端判断
+            var ua = navigator.userAgent;
+            var ipad = ua.match(/(iPad).*OS\s([\d_]+)/),
+                isIphone =!ipad && ua.match(/(iPhone\sOS)\s([\d_]+)/),
+                isAndroid = ua.match(/(Android)\s+([\d.]+)/),
+                isMobile = isIphone || isAndroid;
+            if(isMobile){
+                $("body").css("width","1280px");
+            }else{
+                $("body").css("width","auto");
+            }
+        }
+    }else{
+        $("body").css("width","auto");
+        $("head").append("<meta id='headScreen' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no' name='viewport' />");
+    }
+
+    //手机屏幕尺寸兼容 purewinter 2019-03-26
+    $(window).load(function(){
+        bodyScale();
+    });
+    function bodyScale(){
+        var windowWidth = $(window).width();
+        $("#bodyScale").remove();
+        if(windowWidth < 680){
+            var scale = windowWidth / 375;
+            $("#headScreen").remove();
+            $("head").append("<meta id='headScreen' content='width=375, initial-scale="+scale+", maximum-scale="+scale+", user-scalable=no' name='viewport' />");
+        }else if(windowWidth < 960){
+            var scale = windowWidth / 960;
+            $("#headScreen").remove();
+            $("head").append("<meta id='headScreen' content='width=960, initial-scale="+scale+", maximum-scale="+scale+", user-scalable=no' name='viewport' />");
+        }
+    }
+
+$(window).load(function(){
+	if (!(/msie [6|7|8|9]/i.test(navigator.userAgent))){
+		setTimeout(function(){
+			new WOW().init()
+		},150)
+	};
+});
+var DIY_WEBSITE_ID = "42141";
+var DIY_JS_SERVER = "admin.mifwl.com";
+var DIY_CUR_URL = "//admin.mifwl.com/sysTools.php?mod=diy&act=publishPages&page=1&isphp=0&mainHtml=2&imgLoadLate=2&mipSet=0&productHtml=2&newsHtml=2";
+
+</script>
+<script src="//admin.mifwl.com/exusers/login_html_v9_diy.php?idweb=42141&langid=2&UPermission=all"></script>
+</head>
+<body>
+	<script type="text/javascript">var Default_isFT = 0;</script>
+<script type="text/javascript" src="js/comm/transform.js?201603091"></script>
+			<div id="comm_layout_header" class="layout  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div class="view_contents">
+								<div id="image_style_01_1482892989437" class="view style_01 image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='http://baike.baidu.com/link?url=MGUq98Yr5GD_-Hz_sDattH7GMefwy4hhO00BXNdO-PiV7nySzy9ssGIpwr0xfdp4udIZUZFYNZ_tIqhu2CTIV_' target="">
+	
+			<img class="picSet link-type-2" src="img/upimages/pkgimg/pkgimg/xingao/2016122810421597.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="image_style_01_1482893005056" class="view style_01 image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='http://baike.baidu.com/link?url=fzTn7ZDDCx8McP2ZpwQRXeBhmxX6MOASm6y0sTb0TpO8SX7jyir4km42jz-tNay6ExdVpGjvIDaoEbzC-07YWFqsc_nZ_EOHq4dF3TgLZw3' target="">
+	
+			<img class="picSet link-type-2" src="img/upimages/pkgimg/pkgimg/xingao/20161228104214569.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="image_style_01_1482892482094" class="view style_01 image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='http://baike.baidu.com/link?url=XejYRgfy97mvoF00QICF-WiNp2lqCx5-R0JzHZ8z4DinnF34u8vWP2t1S1vsrY0OAct8iVjB7sQhia2Js0Bsrd4mpsSfZ5cv6EVtJQboONq' target="">
+	
+			<img class="picSet link-type-2" src="img/upimages/pkgimg/pkgimg/xingao/20161228104214537.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="dh_style_01_1480993467673" class="view style_01 dh  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="dh" class="view_contents" >
+					
+<div id="menu" class="menu menuStyle_1">
+	<div class="menuLayout">
+		<ul class="miniMenu columnSet showmobile">
+			<li class="leftBox">
+				<div class="nav"></div>
+				<div class="sidebar icoMenuSet" onclick="setDhListen('style_01',this)">=</div>
+				<div class="menuScroll">
+					<ul class="menuUlCopy">
+	                	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555915" showmobile=""><a class="mainMenuSet" href="index.html">HOME</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555927" showmobile=""><a class="mainMenuSet" href="1555927-1555927.html">ABOUT US</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555917" showmobile=""><a class="mainMenuSet" href="1555917-1555917.html">PRODUCTS</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555929" showmobile=""><a class="mainMenuSet" href="1555929-1555929.html">EVENTS</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555923" showmobile=""><a class="mainMenuSet" href="contactUs.html">CONTACT US</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						 
+	                  		 
+		                    	<li class="rflex" pageid="1555925" showmobile=""><a class="mainMenuSet" href="guestbook.html">GUESTBOOK</a>
+							
+							
+								
+								 
+		                    	</li>
+								
+	                 	
+						
+								
+								
+	                 	
+					</ul>
+				</div>
+			</li>
+		</ul>
+		<div class="menuUl_box columnSet showpc">
+			<ul class="menuUl dflex">
+            	
+				 
+				<!-- 11555915 test-->
+                    
+                    	<li class="rflex" pageid="1555915" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="index.html">HOME</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				 
+				<!-- 11555927 test-->
+                    
+                    	<li class="rflex" pageid="1555927" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="1555927-1555927.html">ABOUT US</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				 
+				<!-- 11555917 test-->
+                    
+                    	<li class="rflex" pageid="1555917" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="1555917-1555917.html">PRODUCTS</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				 
+				<!-- 11555929 test-->
+                    
+                    	<li class="rflex" pageid="1555929" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="1555929-1555929.html">EVENTS</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				 
+				<!-- 11555923 test-->
+                    
+                    	<li class="rflex" pageid="1555923" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="contactUs.html">CONTACT US</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				 
+				<!-- 11555925 test-->
+                    
+                    	<li class="rflex" pageid="1555925" showpc="">
+					
+				
+						 
+		                    <a class="mainMenuSet" href="guestbook.html">GUESTBOOK</a>
+						
+							
+					 
+		                </li>
+					
+              	
+				
+						
+							
+					
+              	
+			</ul>
+		</div>
+	</div>
+</div>
+<!-- 菜单区域 End-->
+
+<!--  -->
+
+
+				</div>
+			</div>
+					<div id="image_logo_1484048773078" class="view logo image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="logoStyle modSet">
+	
+
+<a href='https://warrenelsmore.com/' target="_out"><img class="imgSet" src="img/logo_2.png?1555497504" title="" alt="" style="width:auto; height:100%; position:relative; top:0; left:50%; transform:translate(-50%,0);"/></a>
+
+
+</div>				</div>
+			</div>
+						</div>
+			</div>
+					<div id="layout_diy_1554887932" class="layout "  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div class="view_contents">
+								<div id="user_style_07_1554928938772" class="view style_07 user  none wow bounceIn lockHeightView"  data-wow-duration='1s' data-wow-delay='0.25s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="user" class="view_contents" >
+					<div class="UserLogin UserLoginStyle_7 modSet">
+    <div class="Login_before">
+        <!--登录提示-->
+        <div class="UserLoginTip">
+            <div class="UserLogin-switch">
+                <i class="loginPc" style="display: none;"></i>
+                <i class="loginWx"></i>
+            </div>
+            <div class="UserLogin-tip">
+                <div class="loginTip">
+                    <div class="loginTip-arrow">
+                        <em></em>
+                        <span></span>
+                    </div>
+                    <div class="loginTip-content">
+                        <i></i>
+                        <span>Scan code login more secure</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--密码登录-->
+        <div class="UserLoginbd UserLoginbd_bz" >
+            <div class="UserLoginTilte">Password Login</div>
+            <div class="UserLoginForm">
+                <form target="" method="post" id="niceUserLogin" class="niceUserLogin niceUserLoginStyle_1" action="//admin.mifwl.com/exusers/login_submit.php?id=42141&lang=2&backurl=" onsubmit="return check_login(this)">
+                    <!--用户名-->
+                    <div class="LoginForm userName">
+                        <label class="loginIcoSet"><i class="fa fa-user"></i></label>
+                        <input class="inputSet" name="username" type="text" placeholder="Mobile/Username/Email"/>
+                    </div>
+
+                    <!--用户密码-->
+                    <div class="LoginForm password">
+                        <label class="loginIcoSet"><i class="fa fa-lock"></i></label>
+                        <input class="inputSet" name="pwd" type="password" placeholder="Enter Passwoed"/>
+                    </div>
+
+                    <!--登录按钮-->
+                    <div class="LoginForm submit">
+                        <button class="loginBtn btnz1Set" type="submit">Login</button>
+                    </div>
+
+                    <!--免费注册-->
+                    <div class="login-links">
+                        <a class="textSet" href="javascript:void(0)" title="Forget Password" id="idBoxFpass">Forget Password</a>
+                        <a class="btnz2Set" href="javascript:OnRegister(2);">Free Registration</a>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <!--扫码登录-->
+        <div class="UserLoginbd UserLoginbd_sm" style="display: none;">
+            <div class="UserLoginTilte">Wechat Login</div>
+            <div class="UserLoginForm">
+                <div class="UserLogin_code">
+                    <img src="//admin.mifwl.com/diyTools/?idweb=42141&mod=qrcode&url=%2F%2Fadmin.mifwl.com%2Fexusers%2Fwechat_login.php%3Fid%3D42141%26lang%3D2%26ismobile%3D1">
+                    <!--<img src="img/user/style_07/smBg.png">-->
+                </div>
+                <div class="UserLogin_tip">
+                    <i></i><span>Open WeChat, sweep</span>
+                </div>
+                <div class="login-links">
+                    <a href="javascript:void(0)" id="idBoxFpass" class="textSet">Forget Password</a>
+                    <a href="javascript:;" class="btnz2Set loginPc"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--登录后显示-->
+    <div class="Login_after" style="display: none;"></div>
+</div>
+
+<!-- 05 08 提示登录 -->
+
+
+<script src="//admin.mifwl.com/exusers/login_html_v9_diy.php?idweb=42141&langid=2&autologin=1&style=style_07"></script>
+<script>
+    $(".loginPc").click(function () {
+        $(".loginPc").css("display", "none");
+        $(".loginWx").css("display", "inline");
+        $(".loginTip-content span").text("Scan code login more secure");
+        $(".UserLoginbd_bz").css("display","block");
+        $(".UserLoginbd_sm").css("display","none");
+    });
+    $(".loginWx").click(function () {
+        $(".loginWx").css("display", "none");
+        $(".loginPc").css("display", "inline");
+        $(".loginTip-content span").text("Please click here to login with password");
+        $(".UserLoginbd_sm").css("display","block");
+        $(".UserLoginbd_bz").css("display","none");
+    });
+</script>
+ 
+<!--  -->				</div>
+			</div>
+						</div>
+			</div>
+					<div id="comm_layout_footer" class="layout  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div class="view_contents">
+								<div id="div_blank_1482456490098" class="view blank div  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="div" class="view_contents" >
+					<!-- 
+	<a href="http://baike.baidu.com/link?url=XejYRgfy97mvoF00QICF-WiNp2lqCx5-R0JzHZ8z4DinnF34u8vWP2t1S1vsrY0OAct8iVjB7sQhia2Js0Bsrd4mpsSfZ5cv6EVtJQboONq" style="display:block;width:100%;height:100%;" id="divnet"></a>
+ -->
+
+
+
+				</div>
+			</div>
+					<div id="div_includeBlock_1482456315491" class="view includeBlock div  none includeView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="div" class="view_contents" >
+								<div id="image_style_01_1480991695370" class="view style_01 image  none wow tada"  data-wow-duration='1s' data-wow-delay='2.1s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='javascript:;' target="">
+	
+			<img class="picSet link-type-" src="img/upimages/pkgimg/pkgimg/pkgimg/web/20160928154030515.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="diy_default_1480991737440" class="view default diy "  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="diy" class="view_contents" >
+					<span style="font-size:24px;color:#5e606c;">86-20-31077094</span> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div>
+<div class="diyStyle">
+	
+</div>				</div>
+			</div>
+					<div id="diy_default_1480991818279" class="view default diy  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="diy" class="view_contents" >
+					<span style="font-size:24px;color:#5e606c;">sales@cnsinau.com</span> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div>
+<div class="diyStyle">
+	
+</div>				</div>
+			</div>
+					<div id="diy_default_1480991703151" class="view default diy  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="diy" class="view_contents" >
+					<span style="font-size:24px;color:#5e606c;">86-20-31077094 / 86-20-84532540</span> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div>
+<div class="diyStyle">
+	
+</div>				</div>
+			</div>
+					<div id="image_style_01_1480991729507" class="view style_01 image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='javascript:;' target="">
+	
+			<img class="picSet link-type-" src="img/upimages/pkgimg/pkgimg/pkgimg/web/20160928154031748.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="image_style_01_1480991806956" class="view style_01 image  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="image" class="view_contents" >
+					<div class="imgStyle CompatibleImg">
+	
+		<a href='javascript:;' target="">
+	
+			<img class="picSet link-type-" src="img/upimages/pkgimg/pkgimg/pkgimg/web/20160928154030852.png" title="" alt="描述" id="imageModeShow"/>
+	
+		</a>
+	
+</div>
+
+
+
+
+
+
+<!-- 新加的js  -->
+
+				</div>
+			</div>
+					<div id="diy_default_1480991412016" class="view default diy  none"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="diy" class="view_contents" >
+					<p style="text-align:center;color:#333333;font-size:18px;"><span style="color:#a4a4a4;font-size:14px;line-height:1.5;">Add: Xinxing Square,Dashi Street,Panyu District,Guangzhou city,Guangdong Province,China</span></p> <p style="text-align:center;color:#a4a4a4;font-size:14px;">Fiberglass Boat,Fishing Kayak,Sea Kayak,Inflatable Fishing Boat,Pedal Boat,RIB Boat</p> <p style="text-align:center;color:#a4a4a4;font-size:14px;">Tel: 020-31077094 84532540 Fax:020-31077094</p> <p style="text-align:center;color:#a4a4a4;font-size:14px;">Copyright (C) 2007-2016 Guangzhou Sinau Yacht CO. LTD All Rights Reserved</p> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div> <div class="diyStyle"> </div>
+<div class="diyStyle">
+	
+</div>				</div>
+			</div>
+					<div id="text_style_02_1482893690901" class="view style_02 text  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="text" class="view_contents" >
+					<a href="index.html?pageid=1555915" target='' style='color:inherit' class='editor-view-extend link-type--'>Home |</a>
+
+				</div>
+			</div>
+					<div id="text_style_02_1482893764748" class="view style_02 text  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="text" class="view_contents" >
+					<a href="1555927-1555927.html?pageid=1555927" target='' style='color:inherit' class='editor-view-extend link-type--'>About Us |</a>
+
+				</div>
+			</div>
+					<div id="text_style_02_1482893786727" class="view style_02 text  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="text" class="view_contents" >
+					<a href="guestbook.html?pageid=1555925" target='' style='color:inherit' class='editor-view-extend link-type--'>Guestbook |</a>
+
+				</div>
+			</div>
+					<div id="text_style_02_1482893792793" class="view style_02 text  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="text" class="view_contents" >
+					<a href="contactUs.html?pageid=1555923" target='' style='color:inherit' class='editor-view-extend link-type--'>Contact Us |</a>
+
+				</div>
+			</div>
+					<div id="text_style_02_1482893873780" class="view style_02 text  none lockHeightView"  data-wow-duration='0s' data-wow-delay='0s' data-wow-offset='0' data-wow-iteration='1'>
+				<div names="text" class="view_contents" >
+					<a href="1555927-1555927.html?pageid=1555927" target='' style='color:inherit' class='editor-view-extend link-type--'>Link</a>
+
+				</div>
+			</div>
+						</div>
+			</div>
+						</div>
+			</div>
+		<div class="bottomMenu 123"><ul><li style="height:100%;padding-top:12px;background-color:#FFFFFF;">
+							<a href="index.html" class="" style=""><div class="menuItem"><div class="menuIco"><img src="img/upimages/pkgimg/xingao/home.png" alt=""></div></div></a>
+							<div class="submenuItems" style="display:none;"></div>
+						</li><li style="height:100%;padding-top:12px;background-color:#FFFFFF;">
+							<a href="1555917-1555917.html" class="" style=""><div class="menuItem"><div class="menuIco"><img src="img/upimages/pkgimg/xingao/2016122909570838.png" alt=""></div></div></a>
+							<div class="submenuItems" style="display:none;"></div>
+						</li><li style="height:100%;padding-top:12px;background-color:#FFFFFF;">
+							<a href="1555929-1555929.html" class="" style=""><div class="menuItem"><div class="menuIco"><img src="img/upimages/pkgimg/xingao/20161229095708262.png" alt=""></div></div></a>
+							<div class="submenuItems" style="display:none;"></div>
+						</li><li style="height:100%;padding-top:12px;background-color:#FFFFFF;">
+							<a href="1555927-1555927.html" class="" style=""><div class="menuItem"><div class="menuIco"><img src="img/upimages/pkgimg/xingao/20161229095708802.png" alt=""></div></div></a>
+							<div class="submenuItems" style="display:none;"></div>
+						</li></ul></div>
+<script>
+$(function(){
+    $(".showSubMenu").click(function(){
+        $(this).next().toggle();
+		$(this).parent("li").siblings("li").children(".showSubMenu").next().css("display","none");
+    });
+    var bottomLen = $(".bottomMenu > ul > li > a").length;
+    var url = window.location.pathname;
+    var loc = url.substring(url.lastIndexOf("/")+1, url.length);
+    for(var i=0;i<bottomLen;i++){
+        var curObj = $(".bottomMenu ul li a").eq(i);
+        if(loc == curObj.attr("href")){
+            var img = curObj.children(".menuItem").children(".menuIco").children("img").attr("src");
+            var menuIcon = curObj.children(".menuItem").children(".menuIcon").val();
+            var menuColor = curObj.children(".menuItem").children(".menuColor").val();
+            var menuName = curObj.children(".menuItem").children(".menuName").html();
+            if(menuIcon != ""){
+                curObj.children(".menuItem").children(".menuIco").children("img").attr("src",menuIcon);
+            }
+            if(menuColor != ""){
+                curObj.children(".menuItem").children(".menuName").css("color",menuColor);
+            }
+        }
+    }
+});
+$(window).resize(function(){
+    if($("body").width()<640){
+        var bottomHeight = $(".bottomMenu").height();
+        $("body").css("padding-bottom",bottomHeight+"px");
+    }else{
+        $("body").css("padding-bottom","0px");
+    }
+});
+</script>
+<script>
+	$(function(){
+		sendBatch(batchArr);
+	});
+</script>
+
+<script type="text/javascript" src="//admin.mifwl.com/webapp/UserPanel/share/js.js?a=8269" charset="utf-8"></script>
+</body>
+</html>
